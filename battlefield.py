@@ -7,11 +7,11 @@ from robot import Robot
 
 class Battlefield:
 
-    def __init__(self, dinosaur_passed_in, robot_passed_in):
+    def __init__(self, dinosaur, robot):
         self.battlefield_a = 'run_game'
         self.battlefield_b = 'display_welcome'
-        self.robot = 'battle_phase'
-        self.dinosaur = 'display_winner'
+        self.battlefield_c = 'battle_phase'
+        self.battlefield_d = 'display_winner'
 
     def run_game(self):
         print(self.battlefield_a)
@@ -29,7 +29,7 @@ class Battlefield:
 
 
     def battle_phase(self):
-        self.robot = not robot
+        pass
 
 
 

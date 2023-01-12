@@ -4,7 +4,7 @@ from weapon import Weapon
 class Robot:
 
     def __init__(self, name):
-        self.name = 'Cyborg'
+        self.name = 'robot'
         self.health = 100
         self.active_weapon = ('Laser')
 
