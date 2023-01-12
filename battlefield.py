@@ -7,35 +7,41 @@ from robot import Robot
 
 class Battlefield:
 
-    def __init__(self, name_passed_in):
-        self.battlefield_a = 'Welcome!'
-        self.battlefield_b = 'Let us Begin!'
-        self.battlefield_c = True
-        self.battlefield_d = name_passed_in
+    def __init__(self, attack_power):
+      self.robot = Robot('Cyborg') 
+      self.dinosaur = Dinosaur('Dino')
 
+       
     def run_game(self):
-        pass
-
-
-
-
-
+        print('Fight!')
+       
 
 
     def display_welcome(self):
-        pass
+        print('Welcome!Let us Being!')
 
 
 
 
     def battle_phase(self): 
-        pass        
+        self.robot.attack(self.dinosaur)
+        self.robot != 0
+        print(self.dinosaur)
+
+        self.dinosaur.attack(self.robot)
+        self.dinosaur != 0
+        print(self.robot)
+                
 
 
 
 
-    def display_winner(self, name_of_winner):
-        self.battlefield_d = name_of_winner
+    def display_winner(self,):
+       self.dinosaur = 100
+       print('Winner Dino!') 
+
+       self.robot = 100
+       print('Winner Cyborg')
 
 
        
