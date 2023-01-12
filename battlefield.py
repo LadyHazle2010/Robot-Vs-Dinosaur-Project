@@ -7,14 +7,14 @@ from robot import Robot
 
 class Battlefield:
 
-    def __init__(self, dinosaur, robot):
-        self.battlefield_a = 'run_game'
-        self.battlefield_b = 'display_welcome'
-        self.battlefield_c = 'battle_phase'
-        self.battlefield_d = 'display_winner'
+    def __init__(self, name_passed_in):
+        self.battlefield_a = 'Welcome!'
+        self.battlefield_b = 'Let us Begin!'
+        self.battlefield_c = True
+        self.battlefield_d = name_passed_in
 
     def run_game(self):
-        print(self.battlefield_a)
+        pass
 
 
 
@@ -23,19 +23,22 @@ class Battlefield:
 
 
     def display_welcome(self):
-        print('Welcome!')
-
-
-
-
-    def battle_phase(self):
         pass
 
 
 
 
-    def diplay_winner(self):
-        print(self.battlefield_d)
+    def battle_phase(self): 
+        pass        
+
+
+
+
+    def display_winner(self, name_of_winner):
+        self.battlefield_d = name_of_winner
+
+
+       
         
 
 

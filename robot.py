@@ -9,7 +9,7 @@ class Robot:
         self.active_weapon = ('Laser')
 
     def robot_attack(self, dinosaur):
-      self.name  -= self.active_weapon
+      self.name  = self.active_weapon
 
     def robot_name(self):
       pass

@@ -8,7 +8,7 @@ class Dinosaur:
 
     def dinosaur_attack(self, robot):
         pass
-        # self.name -= self.attack_power 
+        # self.name = self.attack_power 
 
     def dinosaur_name(self):
         pass

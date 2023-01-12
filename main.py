@@ -6,13 +6,20 @@ from robot import Robot
 battlefield_a = Battlefield('robot', 'dinosaur')
 battlefield_a.run_game()
 
-battlefield_b = Battlefield('display_welcome')
+battlefield_b = Battlefield('display_welcome', 'robot')
 battlefield_b.display_welcome()
 
-dinosaur = Robot(-50)
-dinosaur.robot_attack('battlefield phase')
+battlefield_c = Battlefield('Fight!', 'name')
+battlefield_c.battle_phase()
 
-robot = Battlefield()
+battlefield_d = Battlefield("Winner is: ",'name_of_winner')
+battlefield_d.display_winner()
+
+dinosaur = Robot(50)
+dinosaur.robot_attack()
+
+robot = Dinosaur(100,'attack_power' )
+robot.dinosaur_attack('Laser')
 
 
 
