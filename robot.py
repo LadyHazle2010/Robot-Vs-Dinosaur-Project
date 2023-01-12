@@ -1,5 +1,5 @@
 
-from battlefield import Battlefield
+from weapon import Weapon
 
 class Robot:
 
@@ -9,8 +9,13 @@ class Robot:
         self.active_weapon = ('Laser')
 
     def robot_attack(self, dinosaur):
-        self.active_weapon += dinosaur
+      self.name  -= self.active_weapon
 
     def robot_name(self):
+      pass
+
+
+    def robot_health(self):
+      pass
 
 

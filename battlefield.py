@@ -1,7 +1,7 @@
 
 from dinosaur import Dinosaur
 from robot import Robot
-from weapon import Weapon
+
 
 
 
@@ -29,7 +29,7 @@ class Battlefield:
 
 
     def battle_phase(self):
-        print(self.battlefield_c)
+        self.robot = not robot
 
 
 

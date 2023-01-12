@@ -1,5 +1,5 @@
 
-from battlefield import Battlefield
+
 
 class Dinosaur:
 
@@ -9,6 +9,11 @@ class Dinosaur:
         self.health = 100
 
     def dinosaur_attack(self, robot):
-        self.attack_power += robot
+        self.name -= self.attack_power 
 
-    def dinosaur_name(self, )
+    def dinosaur_name(self, ):
+        pass
+
+    
+    def dinosaur_health(self):
+        pass
