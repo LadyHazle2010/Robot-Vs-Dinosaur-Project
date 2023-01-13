@@ -7,13 +7,14 @@ from robot import Robot
 
 class Battlefield:
 
-    def __init__(self, attack_power):
+    def __init__(self):
       self.robot = Robot('Cyborg') 
       self.dinosaur = Dinosaur('Dino')
+      
 
        
     def run_game(self):
-        print('Fight!')
+        print(self)
        
 
 
@@ -28,7 +29,7 @@ class Battlefield:
         self.robot != 0
         print(self.dinosaur)
 
-        self.dinosaur.attack(self.robot)
+        self.dinosaur.attack_power(self.robot)
         self.dinosaur != 0
         print(self.robot)
                 

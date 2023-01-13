@@ -10,4 +10,3 @@ class Dinosaur:
         robot.health -= self.attack_power(50)
 
     
-      

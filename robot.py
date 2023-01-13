@@ -9,11 +9,15 @@ class Robot:
         self.active_weapon = Weapon('Laser', 50)
 
 
-    def choose_weapon(choose_weapon):
-      Robot.active_weapon = choose_weapon('Power Crusher', 'Shield', 'Laser')
+    
+    def attack_power(self, dinosaur):
+     dinosaur.health -= self.attack_power.Weapon(50)
 
-    def attack(self, dinosaur):
-     dinosaur.health -= self.attack_power.active_weapon
+
+
+  
+
+
 
     
 
